@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kristen Wong</title>
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <meta name="google-site-verification" content="_xqy3TQ9IirYRlbkA1whbri4QCtOrweB8Wlqve3o94Q" />
+        <base href=".">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/extra/jquery.fancybox.css">
+        <!-- 1. Load libraries -->
+        <!-- Polyfill(s) for older browsers -->
+        <script src="assets/js/vendor/shim.min.js"></script>
+        <script src="assets/js/vendor/zone.min.js"></script>
+        <script src="assets/js/vendor/Reflect.js"></script>
+        <script src="assets/js/vendor/system.js"></script>
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <!--<script src="assets/extra/preloadImg.js"></script>-->
+        <script src="assets/extra/mobilechecker.js"></script>
+        <script src="assets/extra/jquery.fancybox.pack.js"></script>
+        <script src="assets/js/vendor/semantic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+        <script>
+            TweenMax.ticker.useRAF(false);
+        </script>
+
+        <!-- 2. Configure SystemJS -->
+        <!--<script src="systemjs.config.js"></script>-->
+        <!--<script>-->
+            <!--System.import('app').catch(function(err) { console.error(err); });-->
+        <!--</script>-->
+    </head>
+
+    <body style="overflow-x: visible">
+
+
+    <div class="pusher" style="z-index: 0 !important;overflow: visible">
+        <app>
+            <div class="ui active dimmer">
+                <div class="ui text loader">Loading</div>
+            </div>
+            <p></p>
+        </app>
+    </div>
+
+          <!--Production mod-->
+        <script src="assets/js/bundle.min.js"></script>
+    </body>
+</html>

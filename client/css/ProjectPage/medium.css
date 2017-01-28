@@ -1,0 +1,52 @@
+@media (min-width: 737px) and (max-width: 1023px) {
+
+    .projects-container{
+        /*position: absolute;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+
+        /*position: absolute;*/
+        /*width: 100%;*/
+        /*top: 7rem;*/
+        /*height: 90%;*/
+        /*overflow: hidden;*/
+
+        top: 4%;
+        position: absolute;
+        width: 100%;
+        height: 90%;
+    }
+
+    #browser-project{
+        height: 100%;
+    }
+
+
+
+    .ui.special.cards {
+        width: 14rem;
+    }
+
+    .ui.card>.image>img, .ui.cards>.card>.image>img{
+        height: 200px;
+        width: 100%;
+    }
+
+
+    #first-row-project{
+        position: relative;
+        top: 17%;
+    }
+
+    #second-row-project{
+        position: relative;
+        top: 18%;
+    }
+
+
+    .ui.grid > .four.wide.column{
+        width: 14rem !important;
+        /*text-align: center;*/
+    }
+
+}

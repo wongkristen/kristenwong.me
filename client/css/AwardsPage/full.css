@@ -1,0 +1,32 @@
+@media (min-width: 1024px) {
+    .awards-container{
+        position: absolute;
+        width: 100%;
+        top: 13%;
+        height: 90%;
+        overflow: hidden;
+    }
+
+    .alexaworkaround{
+        font-size: 0.96rem;
+    }
+
+    .ui.special.cards > .card{
+
+    }
+
+    .ui.card>.image>img, .ui.cards>.card>.image>img{
+        height: 200px;
+        width: 100%;
+    }
+
+    #first-row-project{
+        position: relative;
+        top: 10%;
+    }
+
+    #second-row-project{
+        position: relative;
+        top: 9%;
+    }
+}
